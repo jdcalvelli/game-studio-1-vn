@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 04bf312beb03745ed8d2a75e0ef49dc1
+guid: 372293a06fb1c4f719399130620ba4a7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vi_Finals-13_0
+      name: Rev-Vi_Finals-15_0
       rect:
         serializedVersion: 2
-        x: 433
-        y: 455
-        width: 458
-        height: 173
+        x: 397
+        y: 99
+        width: 447
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70fe1efe83ccc443d8a4922f3b910ccf
-      internalID: -1433589583
+      spriteID: 48a8d45199a3f465e8ef8ad5efb670d3
+      internalID: 539374309
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Vi_Finals-13_0: -1433589583
+      Rev-Vi_Finals-15_0: 539374309
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
