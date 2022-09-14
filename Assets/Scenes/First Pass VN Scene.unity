@@ -2969,6 +2969,7 @@ GameObject:
   - component: {fileID: 1338993852}
   - component: {fileID: 1338993854}
   - component: {fileID: 1338993855}
+  - component: {fileID: 1338993856}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3000,8 +3001,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1338993849}
+  selectedCommands:
+  - {fileID: 1338993856}
   variables: []
   description: 
   stepPause: 0
@@ -3040,6 +3043,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1338993854}
   - {fileID: 1338993855}
+  - {fileID: 1338993856}
   - {fileID: 1338993853}
   - {fileID: 1338993852}
   suppressAllAutoSelections: 0
@@ -3178,6 +3182,40 @@ MonoBehaviour:
   _toPosition:
     vector3Ref: {fileID: 0}
     vector3Val: {x: -100, y: 0, z: 0}
+  isLocal: 0
+--- !u!114 &1338993856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca31fffe1be42a49b96bbb8b7ff5a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  _targetObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 898975726}
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  _toFrom: 0
+  _absAdd: 0
+  easeType: 4
+  loopType: 35
+  repeats: 0
+  stopPreviousTweens: 0
+  waitUntilFinished: 1
+  _toTransform:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  _toPosition:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 20, y: 0, z: 0}
   isLocal: 0
 --- !u!1 &1548127817
 GameObject:
