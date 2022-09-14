@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Personal Additions to Unity Gitignore Template
+
+/UserSettings/
