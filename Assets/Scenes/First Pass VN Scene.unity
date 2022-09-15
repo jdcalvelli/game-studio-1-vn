@@ -615,8 +615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150, y: 360}
-  m_SizeDelta: {x: 500, y: 0}
+  m_AnchoredPosition: {x: -200, y: 310}
+  m_SizeDelta: {x: 300, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197512113
 MonoBehaviour:
@@ -650,7 +650,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 5
+  m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -3424,13 +3424,13 @@ GameObject:
   - component: {fileID: 1338993899}
   - component: {fileID: 1338993895}
   - component: {fileID: 1338993894}
-  - component: {fileID: 1338993900}
   - component: {fileID: 1338993901}
   - component: {fileID: 1338993902}
   - component: {fileID: 1338993903}
   - component: {fileID: 1338993904}
   - component: {fileID: 1338993905}
   - component: {fileID: 1338993906}
+  - component: {fileID: 1338993907}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3451,7 +3451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 105.16974, y: -268.0416}
+  scrollPos: {x: 98.472786, y: -202.33035}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3463,8 +3463,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1338993896}
-  selectedCommands: []
+  - {fileID: 1338993889}
+  selectedCommands:
+  - {fileID: 1338993894}
   variables: []
   description: 
   stepPause: 0
@@ -3490,8 +3491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 71
+    x: 68.12423
+    y: 72.12423
     width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3605,7 +3606,7 @@ MonoBehaviour:
     transformVal: {fileID: 0}
   _toPosition:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: 20, y: 0, z: 0}
+    vector3Val: {x: 20, y: 0, z: -5}
   isLocal: 0
 --- !u!114 &1338993857
 MonoBehaviour:
@@ -3906,7 +3907,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0.5
   durationOLD: 0
 --- !u!114 &1338993869
 MonoBehaviour:
@@ -4419,7 +4420,7 @@ MonoBehaviour:
   itemId: 39
   blockName: choice2
   description: 
-  eventHandler: {fileID: 1338993900}
+  eventHandler: {fileID: 1338993907}
   commandList:
   - {fileID: 1338993891}
   - {fileID: 1338993888}
@@ -4461,7 +4462,7 @@ MonoBehaviour:
     transformVal: {fileID: 0}
   _toPosition:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: 20, y: 0, z: 0}
+    vector3Val: {x: 20, y: 0, z: -5}
   isLocal: 0
 --- !u!114 &1338993891
 MonoBehaviour:
@@ -4543,7 +4544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  text: ...That was out of line.
+  text: "...That was \nout of line."
   description: 
   targetBlock: {fileID: 1338993899}
   hideIfVisited: 0
@@ -4674,8 +4675,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 200.9684
-    y: 357.6144
+    x: 201.9684
+    y: 351.6144
     width: 122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4688,24 +4689,9 @@ MonoBehaviour:
   - {fileID: 1338993905}
   - {fileID: 1338993906}
   suppressAllAutoSelections: 0
---- !u!114 &1338993900
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338993847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1338993889}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &1338993901
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4732,7 +4718,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1338993902
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4760,7 +4746,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1338993903
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4778,7 +4764,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1338993904
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4806,7 +4792,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1338993905
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4833,7 +4819,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1338993906
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4859,6 +4845,21 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1338993907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1338993889}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &1548127817
 GameObject:
   m_ObjectHideFlags: 0
