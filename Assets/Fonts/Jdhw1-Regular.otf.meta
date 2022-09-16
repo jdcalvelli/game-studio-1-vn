@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b7efc046d4b7cb751a23ec825f2f81e5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Jdhw1
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b6024ed598e5639e4b22430bd91e2292, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
