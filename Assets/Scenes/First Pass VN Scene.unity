@@ -408,8 +408,8 @@ Canvas:
   m_GameObject: {fileID: 86348936}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 648400027}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
@@ -1424,8 +1424,8 @@ Canvas:
   m_GameObject: {fileID: 416373044}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 648400027}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
@@ -3391,11 +3391,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 790.2574, y: 77.69917}
+  scrollPos: {x: 1323.5378, y: 160.94043}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.43900052
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3405,7 +3405,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1338993870}
   selectedCommands:
-  - {fileID: 1338993950}
+  - {fileID: 1338993886}
   variables:
   - {fileID: 1338993914}
   - {fileID: 1338993913}
@@ -3435,7 +3435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.12423
     y: 70.11822
-    width: 109.22544
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3584,7 +3584,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.96914
     y: 144.9923
-    width: 92.14118
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3883,7 +3883,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.35582
     y: 219.62924
-    width: 93.280136
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4352,7 +4352,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.027214
     y: 295.58035
-    width: 94.41908
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4536,7 +4536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.364395
     y: 353.36832
-    width: 139.97711
+    width: 152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4592,7 +4592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.62689
     y: 353.86404
-    width: 119.476
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4623,7 +4623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.6429
     y: 351.53546
-    width: 120.61495
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5090,7 +5090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.142715
     y: 440.0164
-    width: 94.41908
+    width: 100
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5457,7 +5457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.71305
     y: 518.7464
-    width: 95.55803
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5601,7 +5601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 243.0052
     y: 593.693
-    width: 120.61495
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5628,7 +5628,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.785034
     y: 594.2226
-    width: 121.7539
+    width: 132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5655,7 +5655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.53896
     y: 594.22253
-    width: 141.11606
+    width: 152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6601,8 +6601,8 @@ Canvas:
   m_GameObject: {fileID: 1727818965}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 648400027}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
