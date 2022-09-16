@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/1_intro-scene.unity
     guid: 5924aa940a1174da8b139fdcb7715df2
   - enabled: 1
-    path: Assets/Scenes/2_convo-scene.unity
+    path: Assets/Scenes/3_convo-scene.unity
     guid: 41dd5a7997062423c88a49b68d4efb3a
   m_configObjects: {}

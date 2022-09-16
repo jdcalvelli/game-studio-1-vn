@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 26a8a41089b59af4aa9b4dedf8dee945
+timeCreated: 1515795374
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sketch Block
+  fontNames:
+  - Sketch Block
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
