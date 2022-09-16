@@ -3328,6 +3328,11 @@ GameObject:
   - component: {fileID: 1338993905}
   - component: {fileID: 1338993906}
   - component: {fileID: 1338993907}
+  - component: {fileID: 1338993908}
+  - component: {fileID: 1338993910}
+  - component: {fileID: 1338993909}
+  - component: {fileID: 1338993912}
+  - component: {fileID: 1338993911}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3348,7 +3353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 98.472786, y: -202.33035}
+  scrollPos: {x: 610.64417, y: -60.129242}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3360,9 +3365,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1338993889}
-  selectedCommands:
-  - {fileID: 1338993894}
+  - {fileID: 1338993849}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3397,7 +3401,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start-Test
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1338993907}
   commandList:
   - {fileID: 1338993854}
   - {fileID: 1338993855}
@@ -3539,7 +3543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.96914
     y: 144.9923
-    width: 93
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3667,9 +3671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: 'Bum a cig?
-
-    {w=1}
+  storyText: 'Bum a cig?{w=1}
 
     Can I have a cigarette?'
   description: 
@@ -3716,12 +3718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: '{s=20}Oh.
+  storyText: '{s=20}Oh.{w=1}
 
-    {w=1}
-
-    I didn''t realize that was the new way to
-    ask.'
+    I didn''t realize that was the new way to ask.'
   description: 
   character: {fileID: 899865504}
   portrait: {fileID: 0}
@@ -3843,7 +3842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.35582
     y: 219.62924
-    width: 94
+    width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3866,6 +3865,7 @@ MonoBehaviour:
   - {fileID: 1338993883}
   - {fileID: 1338993884}
   - {fileID: 1338993885}
+  - {fileID: 1338993908}
   - {fileID: 1338993887}
   - {fileID: 1338993886}
   - {fileID: 1338993892}
@@ -4073,8 +4073,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: '{s=20}Sorry. {w=0.5}I just assumed. I saw the hat and, well, I went
-    there...{w=0.5}So I thought it was worth asking.'
+  storyText: '{s=20}Sorry. {w=0.5}I just assumed. I saw the hat and, well, I attended...{w=0.5}So
+    I thought it was worth asking.'
   description: 
   character: {fileID: 899865504}
   portrait: {fileID: 0}
@@ -4191,8 +4191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 36
   indentLevel: 0
-  storyText: That tracks. That makes sense. You're here, in this city, in this park,
-    in this part of town, wearing a nice ass suit.
+  storyText: That tracks. That makes sense.
   description: 
   character: {fileID: 962191789}
   portrait: {fileID: 0}
@@ -4246,8 +4245,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 37
   indentLevel: 0
-  storyText: What, do you work in finance? Married? Two kids? Dog? Fucking 15 acre
-    back yard?
+  storyText: Let me guess, you work in finance? Married? Two kids? Dog? Fucking 15
+    acre back yard?
   description: 
   character: {fileID: 962191789}
   portrait: {fileID: 0}
@@ -4309,7 +4308,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 74.027214
-    y: 296.58035
+    y: 295.58035
     width: 95
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4317,11 +4316,12 @@ MonoBehaviour:
   itemId: 39
   blockName: choice2
   description: 
-  eventHandler: {fileID: 1338993907}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1338993891}
   - {fileID: 1338993888}
   - {fileID: 1338993890}
+  - {fileID: 1338993910}
   - {fileID: 1338993893}
   - {fileID: 1338993897}
   - {fileID: 1338993895}
@@ -4504,6 +4504,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1338993903}
   - {fileID: 1338993904}
+  - {fileID: 1338993912}
   suppressAllAutoSelections: 0
 --- !u!114 &1338993897
 MonoBehaviour:
@@ -4545,7 +4546,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -65.66974
-    y: 354.2916
+    y: 355.2916
     width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4557,6 +4558,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1338993901}
   - {fileID: 1338993902}
+  - {fileID: 1338993909}
   suppressAllAutoSelections: 0
 --- !u!114 &1338993899
 MonoBehaviour:
@@ -4585,6 +4587,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1338993905}
   - {fileID: 1338993906}
+  - {fileID: 1338993911}
   suppressAllAutoSelections: 0
 --- !u!114 &1338993901
 MonoBehaviour:
@@ -4627,8 +4630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: Nah, it wasn't alright. But thanks for being cool about it. College
-    just gets me feeling some type of way.
+  storyText: Nah, it wasn't alright. But thanks for being cool about it.
   description: 
   character: {fileID: 962191789}
   portrait: {fileID: 0}
@@ -4673,10 +4675,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: Yeah, that was fucked up. {w=0.5}My bad, man. {w=0.5}College just gets
-    me feeling some type of way.
+  storyText: Yeah, that was fucked up. {w=0.5}My bad, man.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 962191789}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4728,8 +4729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Yeah,{w=0.5} I know. Thanks for reminding me. College just gets me feeling
-    some type of way, alright? Jeez.
+  storyText: Yeah,{w=0.5} I know. Thanks for reminding me. Jeez.
   description: 
   character: {fileID: 962191789}
   portrait: {fileID: 0}
@@ -4744,7 +4744,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1338993907
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4754,9 +4754,136 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1338993889}
+  parentBlock: {fileID: 1338993849}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1338993908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  storyText: You're here, in this city, in this park, in this part of town, wearing
+    a nice ass suit.
+  description: 
+  character: {fileID: 962191789}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1338993909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  storyText: College just gets me feeling some type of way, you know?
+  description: 
+  character: {fileID: 962191789}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1338993910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 3
+  durationOLD: 0
+--- !u!114 &1338993911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  storyText: College just gets me feeling some type of way, alright?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1338993912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  storyText: College just gets me feeling some type of way.
+  description: 
+  character: {fileID: 962191789}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1548127817
 GameObject:
   m_ObjectHideFlags: 0
