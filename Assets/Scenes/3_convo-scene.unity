@@ -3615,7 +3615,6 @@ GameObject:
   - component: {fileID: 1338994008}
   - component: {fileID: 1338994011}
   - component: {fileID: 1338994012}
-  - component: {fileID: 1338994013}
   - component: {fileID: 1338994019}
   - component: {fileID: 1338994018}
   - component: {fileID: 1338994017}
@@ -3625,6 +3624,7 @@ GameObject:
   - component: {fileID: 1338994022}
   - component: {fileID: 1338994021}
   - component: {fileID: 1338994020}
+  - component: {fileID: 1338994023}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3645,19 +3645,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 624.0055, y: -533.69806}
+  scrollPos: {x: 1081.953, y: -99.77914}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.62100035
+  zoom: 0.42850122
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1338994014}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 1338993914}
@@ -3688,14 +3687,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.0369
     y: -171.69229
-    width: 95.08855
+    width: 94.3406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
   blockName: choice1
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1338994023}
   commandList:
   - {fileID: 1338993953}
   - {fileID: 1338993965}
@@ -3752,7 +3751,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.444214
     y: 217.90211
-    width: 92.67308
+    width: 92.00688
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4035,7 +4034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.83093
     y: 292.53934
-    width: 94.28339
+    width: 93.17374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4504,7 +4503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.50232
     y: 368.49075
-    width: 96.698845
+    width: 95.507454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4688,7 +4687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.839478
     y: 426.27853
-    width: 142.59253
+    width: 139.84805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4744,7 +4743,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.15216
     y: 426.77426
-    width: 122.46373
+    width: 121.17833
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4775,7 +4774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 258.11816
     y: 424.4457
-    width: 124.074036
+    width: 122.345184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5227,7 +5226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 77.61786
     y: 511.365
-    width: 95.08855
+    width: 94.3406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5594,7 +5593,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.18817
     y: 591.6563
-    width: 97.504
+    width: 96.67432
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5643,7 +5642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  text: That's a nuanced situation.
+  text: I'm not sure about that...
   description: 
   targetBlock: {fileID: 1338993945}
   hideIfVisited: 0
@@ -5738,7 +5737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 241.80823
     y: 666.6028
-    width: 123.26888
+    width: 122.345184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5768,7 +5767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.26001
     y: 665.5711
-    width: 124.87919
+    width: 123.51204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5798,7 +5797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.06427
     y: 667.1323
-    width: 143.39769
+    width: 141.01491
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5826,7 +5825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  flowchart: {fileID: 0}
+  flowchart: {fileID: 1338993848}
   choiceScore: -1
 --- !u!114 &1338993948
 MonoBehaviour:
@@ -5858,7 +5857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  flowchart: {fileID: 0}
+  flowchart: {fileID: 1338993848}
   choiceScore: 1
 --- !u!114 &1338993950
 MonoBehaviour:
@@ -6022,7 +6021,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Take it.
   description: 
-  targetBlock: {fileID: 1338993963}
+  targetBlock: {fileID: 1338993964}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6154,7 +6153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.97034
     y: 149.67278
-    width: 94.28339
+    width: 93.17374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6185,7 +6184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196.46516
     y: -88.960045
-    width: 140.98224
+    width: 138.6812
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6213,7 +6212,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 62.23095
     y: -86.725624
-    width: 120.853424
+    width: 120.01147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6241,7 +6240,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -71.75659
     y: -87.97251
-    width: 122.46373
+    width: 121.17833
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6269,7 +6268,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Rip it.
   description: 
-  targetBlock: {fileID: 1338993964}
+  targetBlock: {fileID: 1338993963}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -6342,7 +6341,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 76.068825
     y: -0.7506075
-    width: 89.45247
+    width: 88.50631
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6497,7 +6496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.051136
     y: 83.415985
-    width: 121.65858
+    width: 120.01147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6638,7 +6637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -218.584
     y: 137.18663
-    width: 131.3204
+    width: 130.51318
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6726,7 +6725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.90955
     y: 147.80138
-    width: 148.2286
+    width: 148.01605
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6903,7 +6902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.72803
     y: 251.4381
-    width: 157.89044
+    width: 157.35092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7057,7 +7056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 257.72797
     y: 213.25603
-    width: 130.51526
+    width: 129.34633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7110,7 +7109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  storyText: That's one way to put it.
+  storyText: Easy for you to say. You aren't in my shoes.
   description: 
   character: {fileID: 962191789}
   portrait: {fileID: 0}
@@ -7192,7 +7191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: '{s=20}That''s a nuanced situation.'
+  storyText: '{s=20}I''m not sure about that...'
   description: 
   character: {fileID: 899865504}
   portrait: {fileID: 0}
@@ -7248,14 +7247,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.364685
     y: 762.29785
-    width: 97.504
+    width: 96.67432
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 157
   blockName: choice4
   description: 
-  eventHandler: {fileID: 1338994013}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1338994012}
   - {fileID: 1338994011}
@@ -7372,21 +7371,6 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 2
   durationOLD: 0
---- !u!114 &1338994013
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338993847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1338994007}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &1338994014
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7401,9 +7385,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 259.09192
-    y: 839.7529
-    width: 123.26888
+    x: 255.87134
+    y: 842.9735
+    width: 122.345184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7430,7 +7414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.255424
     y: 839.7527
-    width: 143.39769
+    width: 141.01491
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7480,7 +7464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  text: It's transitory.
+  text: One day it ends.
   description: 
   targetBlock: {fileID: 1338994019}
   hideIfVisited: 0
@@ -7505,7 +7489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 166
   indentLevel: 0
-  text: It's just a step.
+  text: You just do it.
   description: 
   targetBlock: {fileID: 1338994015}
   hideIfVisited: 0
@@ -7532,7 +7516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.84475
     y: 839.7529
-    width: 124.87919
+    width: 123.51204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7591,6 +7575,21 @@ MonoBehaviour:
   indentLevel: 0
   flowchart: {fileID: 1338993848}
   choiceScore: -1
+--- !u!114 &1338994023
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338993847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1338993849}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &1548127817
 GameObject:
   m_ObjectHideFlags: 0
