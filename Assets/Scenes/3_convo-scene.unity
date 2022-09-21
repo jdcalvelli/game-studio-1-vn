@@ -3645,7 +3645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1128.6278, y: 75.249725}
+  scrollPos: {x: 1102.9567, y: 271.28183}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3656,7 +3656,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1338994007}
   selectedCommands: []
   variables:
   - {fileID: 1338993914}
@@ -3694,7 +3695,7 @@ MonoBehaviour:
   itemId: 0
   blockName: choice1
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1338994023}
   commandList:
   - {fileID: 1338993953}
   - {fileID: 1338993965}
@@ -7254,7 +7255,7 @@ MonoBehaviour:
   itemId: 157
   blockName: choice4
   description: 
-  eventHandler: {fileID: 1338994023}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1338994012}
   - {fileID: 1338994011}
@@ -7577,7 +7578,7 @@ MonoBehaviour:
   choiceScore: -1
 --- !u!114 &1338994023
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7587,7 +7588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1338994007}
+  parentBlock: {fileID: 1338993849}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
 --- !u!1 &1548127817
