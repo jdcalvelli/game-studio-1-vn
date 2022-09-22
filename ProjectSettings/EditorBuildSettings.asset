@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3_convo-scene.unity
     guid: 41dd5a7997062423c88a49b68d4efb3a
+  - enabled: 1
+    path: Assets/Scenes/epilogues/4a_cohesive-response-scene.unity
+    guid: 71cee976bfd694e6f9feade81e79f90a
+  - enabled: 1
+    path: Assets/Scenes/epilogues/4b_ambivalent-response-scene.unity
+    guid: ffc777ee274374571a9067c4e931fabc
+  - enabled: 1
+    path: Assets/Scenes/epilogues/4c_rebellious-response-scene.unity
+    guid: 28ff65bbac97c4ce49d186c788925e7e
   m_configObjects: {}
