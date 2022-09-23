@@ -371,7 +371,33 @@ MonoBehaviour:
   m_Text: 'To my wife,
 
 
-    I hope this message finds you well.'
+    I''m sorry that you feel as though you need to leave.
+    If only I had been
+
+    a better husband, a more successful husband, perhaps
+    you would feel
+
+    differently.
+
+
+    You hoped that I would find what I am
+    looking for. I believe I have found
+
+    it.
+
+
+    The traditional life. That''s
+    all.
+
+
+    The job, the dog, the 15 acre backyard.
+
+
+    The wife.
+
+
+    I hope
+    to hear from you in time.'
 --- !u!222 &811713529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -392,12 +418,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e6c1817c8b23f543be8347e54116368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TargetText: "To my husband,\n\nI hope this message finds you well. \nI'm sorry
-    to have left it to you in this fashion. I just needed to leave. \n\nWe were young,
-    it was too early, and we both know that.  Well, I hope you do. Either way, I
-    do. And I'm leaving now.\n\nI won't be coming back. \nI don't need you anymore.
-    In fact, I never did.\n\nI hope you can find the fulfilment you're looking for.\n\nGood
-    luck."
+  m_TargetText: 'To my wife,
+
+
+    I''m sorry that you feel as though you need to
+    leave. If only I had been
+
+    a better husband, a more successful husband, perhaps
+    you would feel
+
+    differently.
+
+
+    You hoped that I would find what I am
+    looking for. I believe I have found
+
+    it.
+
+
+    The traditional life. That''s
+    all.
+
+
+    The job, the dog, the 15 acre backyard.
+
+
+    The wife.
+
+
+    I hope
+    to hear from you in time.'
   m_StartEffectOnStart: 1
   m_StartEffectOnEnable: 0
   m_ResetTextOnEnable: 0
