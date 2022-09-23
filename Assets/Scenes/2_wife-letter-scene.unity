@@ -368,11 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "To my husband,\n\nI hope this message finds you well. \nI'm sorry to have
-    left it to you in this fashion. I just needed to leave. \n\nWe were young, it
-    was too early, and we both know that.  Well, I hope you do. Either way, I do.
-    And I'm leaving now.\n\nI won't be coming back. \nI don't need you anymore. In
-    fact, I never did.\n\nI hope you can find the fulfilment you're looking for."
+  m_Text: 
 --- !u!222 &811713529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -397,8 +393,7 @@ MonoBehaviour:
     to have left it to you in this fashion. I just needed to leave. \n\nWe were young,
     it was too early, and we both know that.  Well, I hope you do. Either way, I
     do. And I'm leaving now.\n\nI won't be coming back. \nI don't need you anymore.
-    In fact, I never did.\n\nI hope you can find the fulfilment you're looking for.\n\nGood
-    luck."
+    In fact, I never did.\n\nI hope you can find the fulfilment you're looking for."
   m_StartEffectOnStart: 1
   m_StartEffectOnEnable: 0
   m_ResetTextOnEnable: 0
