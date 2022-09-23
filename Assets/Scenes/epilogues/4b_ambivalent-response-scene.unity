@@ -368,12 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "To my wife,\n\nI'm sorry that you feel as though you need to leave. I'm
-    not positive what I could have done differently. Although I suppose now I'll
-    never really know.\n\nYou hoped that I would find what I am looking for. \n\nI'm
-    not sure I ever will.\n\nI don't fault you for leaving. In fact, in some ways
-    I admire it.\n\nIndecision is paralyzing.\n\nI'm glad that you don't suffer from
-    it.\n\n"
+  m_Text: 
 --- !u!222 &811713529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -394,7 +389,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e6c1817c8b23f543be8347e54116368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TargetText: 
+  m_TargetText: "To my wife,\n\nI'm sorry that you feel as though you need to leave.
+    I'm not positive what I could have done differently. Although I suppose now I'll
+    never really know.\n\nYou hoped that I would find what I am looking for. \n\nI'm
+    not sure I ever will.\n\nI don't fault you for leaving. In fact, in some ways
+    I admire it.\n\nIndecision is paralyzing.\n\nI'm glad that you don't suffer from
+    it."
   m_StartEffectOnStart: 1
   m_StartEffectOnEnable: 0
   m_ResetTextOnEnable: 0

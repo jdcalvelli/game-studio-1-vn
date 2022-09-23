@@ -368,36 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'To my wife,
-
-
-    I''m sorry that you feel as though you need to leave.
-    If only I had been
-
-    a better husband, a more successful husband, perhaps
-    you would feel
-
-    differently.
-
-
-    You hoped that I would find what I am
-    looking for. I believe I have found
-
-    it.
-
-
-    The traditional life. That''s
-    all.
-
-
-    The job, the dog, the 15 acre backyard.
-
-
-    The wife.
-
-
-    I hope
-    to hear from you in time.'
+  m_Text: 
 --- !u!222 &811713529
 CanvasRenderer:
   m_ObjectHideFlags: 0

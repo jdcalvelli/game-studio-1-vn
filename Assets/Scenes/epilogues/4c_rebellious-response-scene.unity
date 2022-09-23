@@ -368,30 +368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'To my wife,
-
-
-    I''m sorry that you feel as though you need to leave.
-    To be honest, I find it to be selfish. But I can''t fault you. After all, I''d
-    probably do the same.
-
-
-    You hoped that I would find what I am looking for.
-    I''m pretty sure I have.
-
-
-    Freedom.
-
-
-    Freedom from pressures, from what''s
-    expected of me.
-
-
-    Freedom to be who I want to be, not whom I''m told to be.
-
-
-    I
-    hope you find that same freedom that you''ve now granted me.'
+  m_Text: 
 --- !u!222 &811713529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -412,7 +389,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e6c1817c8b23f543be8347e54116368, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TargetText: 
+  m_TargetText: 'To my wife,
+
+
+    I''m sorry that you feel as though you need to
+    leave. To be honest, I find it to be selfish. But I can''t fault you. After all,
+    I''d probably do the same.
+
+
+    You hoped that I would find what I am looking
+    for. I''m pretty sure I have.
+
+
+    Freedom.
+
+
+    Freedom from pressures, from
+    what''s expected of me.
+
+
+    Freedom to be who I want to be, not whom I''m told
+    to be.
+
+
+    I hope you find that same freedom that you''ve now granted me.'
   m_StartEffectOnStart: 1
   m_StartEffectOnEnable: 0
   m_ResetTextOnEnable: 0
