@@ -624,6 +624,9 @@ GameObject:
   - component: {fileID: 1581577667}
   - component: {fileID: 1581577666}
   - component: {fileID: 1581577665}
+  - component: {fileID: 1581577668}
+  - component: {fileID: 1581577670}
+  - component: {fileID: 1581577669}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -657,7 +660,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1581577662}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1581577670}
   variables: []
   description: 
   stepPause: 0
@@ -714,7 +718,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1581577663}
   commandList:
+  - {fileID: 1581577668}
   - {fileID: 1581577661}
+  - {fileID: 1581577670}
+  - {fileID: 1581577669}
   - {fileID: 1581577667}
   - {fileID: 1581577666}
   - {fileID: 1581577665}
@@ -804,7 +811,57 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 25
+    floatVal: 5
+  durationOLD: 0
+--- !u!114 &1581577668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581577659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: b63c07770541c5811865bbcf31236ae9, type: 3}
+  atTime: 0
+  loop: 0
+  fadeDuration: 0
+--- !u!114 &1581577669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581577659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+--- !u!114 &1581577670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581577659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 21.6
   durationOLD: 0
 --- !u!1 &1767792236
 GameObject:
