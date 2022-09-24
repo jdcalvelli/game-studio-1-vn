@@ -388,6 +388,10 @@ GameObject:
   - component: {fileID: 777330343}
   - component: {fileID: 777330344}
   - component: {fileID: 777330345}
+  - component: {fileID: 777330346}
+  - component: {fileID: 777330348}
+  - component: {fileID: 777330347}
+  - component: {fileID: 777330349}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -435,13 +439,17 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 777330334}
   commandList:
+  - {fileID: 777330346}
   - {fileID: 777330338}
   - {fileID: 777330339}
   - {fileID: 777330342}
   - {fileID: 777330341}
   - {fileID: 777330340}
   - {fileID: 777330343}
+  - {fileID: 777330348}
+  - {fileID: 777330347}
   - {fileID: 777330345}
+  - {fileID: 777330349}
   - {fileID: 777330344}
   suppressAllAutoSelections: 0
 --- !u!114 &777330336
@@ -460,7 +468,7 @@ MonoBehaviour:
   scrollPos: {x: 294.5, y: 142.25}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 455
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -471,7 +479,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 777330335}
   selectedCommands:
-  - {fileID: 777330343}
+  - {fileID: 777330338}
   variables: []
   description: 
   stepPause: 0
@@ -514,7 +522,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 4
   durationOLD: 0
 --- !u!114 &777330339
 MonoBehaviour:
@@ -622,7 +630,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 4
   durationOLD: 0
 --- !u!114 &777330344
 MonoBehaviour:
@@ -657,12 +665,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  duration: 1
+  duration: 0.1
   targetAlpha: 1
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &777330346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777330333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: b845fd22be18bf6d882771c2b10fc16a, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 0.5
+--- !u!114 &777330347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777330333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: a801fbc0b8914addd9b1083ef8fe787b, type: 3}
+  volume: 1
+  waitUntilFinished: 0
+--- !u!114 &777330348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777330333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+--- !u!114 &777330349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777330333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
 --- !u!1 &1299360731
 GameObject:
   m_ObjectHideFlags: 0
