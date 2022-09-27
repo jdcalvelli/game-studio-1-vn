@@ -18,12 +18,12 @@ public class handleEnding : Command
             // this should send the ambivalent ending
             flowchart.SendFungusMessage("ambivalent");
         }
-        else if (finalResponseScore > 0.3f)
+        else if (finalResponseScore >= 0.3f)
         {
             // this should send the rebellious ending
             flowchart.SendFungusMessage("rebellious");
         }
-        else if (finalResponseScore < -0.3f)
+        else if (finalResponseScore <= -0.3f)
         {
             // this should send the society cohesion ending
             flowchart.SendFungusMessage("cohesion");
